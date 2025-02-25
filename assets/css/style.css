@@ -1,0 +1,23 @@
+├── assets/
+│├--css/
+││└--style.css#样式文件
+│├--js/
+││└--script.js#交互逻辑
+│├--图像/
+││├--cat.png#猫咪主图（需自行准备）
+││└--heart.png#爱心特效
+│└--音乐/
+│└--bgm.mp3#背景音乐(需小于10MB)
+├--index.html#主页面
+└── favicon.ico             # 网站图标（非必须）├── assets/            → 静态资源文件夹
+│   ├── css/           → 样式表
+│   │   └── style.css
+│   ├── js/            → 交互脚本
+│   │   └── script.js
+│   ├── images/        → 图片素材
+│   │   ├── cat.png    → 猫咪主图（需上传）
+│   │   └── heart.png  → 爱心图标（需上传）
+│   └── music/         → 背景音乐
+│       └── bgm.mp3    → 音乐文件（需上传）
+├── index.html         → 主页面
+└── .gitignore         → 忽略文件（可选）
